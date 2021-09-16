@@ -1,1 +1,1 @@
-vscode ile githuba proje gönderiyorum.
+Vscode ile githuba proje gönderiyorum.
