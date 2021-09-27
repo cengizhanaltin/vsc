@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms</title>
+  </head>
+  <body>
+    <form action="register.php">
+      <div>
+        <label for="name">Adınız</label>
+        <input type="text" id="name" />
+      </div>
+
+      <div>
+        <label for="name">Soyadınız</label>
+        <input type="text" id="name" />
+      </div>
+
+      <div>
+        <label for="intro">Kendini Anlat</label>
+        <textarea name="" id="intro" cols="30" rows="2"></textarea>
+      </div>
+
+      <div>
+        <label for="cities">Şehir</label>
+        <select name="" id="cities">
+          <option value="61">Trabzon</option>
+          <option value="34">İstanbul</option>
+          <option value="35">İzmir</option>
+        </select>
+      </div>
+
+      <div>
+        <label for="eposta">Mail</label>
+        <input type="email" id="eposta" />
+      </div>
+
+      <div>
+        <label for="parola">Parola</label>
+        <input type="password" id="parola" />
+      </div>
+
+      <p>En sevdiğiniz programlama dili?</p>
+
+      <input type="radio" name="dil" id="HTML" />
+      <label for="HTML">HTML</label><br />
+      <input type="radio" name="dil" id="CSS" />
+      <label for="CSS">CSS</label><br />
+      <input type="radio" name="dil" id="Javascript" />
+      <label for="Javascript">Javascript</label><br /><br />
+
+      <p>En sevdiğiniz programlama dili?</p>
+
+      <input type="checkbox" id="HTML2" />
+      <label for="HTML2">HTML</label><br />
+      <input type="checkbox" id="CSS2" />
+      <label for="CSS2">CSS</label><br />
+      <input type="checkbox" id="Javascript2" />
+      <label for="Javascript2">Javascript</label><br /><br />
+
+      <button type="submit">Kaydet</button>
+      <button type="reset">Temizle</button>
+    </form>
+  </body>
+</html>
